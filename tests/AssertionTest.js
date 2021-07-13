@@ -9,7 +9,10 @@ fixture("Frist Fixture")
 test("Frist test", async t => {
      
     await t 
+    .expect(developerName. value).eql('','input is empty')
+    
     .typeText(developerName,"TAU")
+    .expect(developerName.value).eql('TAU','Input contain')
     .click(osOption)
     .click(submitButton);
 
