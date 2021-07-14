@@ -1,9 +1,9 @@
 {
   "name": "testcafedemo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
     "testcafe": "^1.15.0"
   },
   "devDependencies": {},
@@ -11,5 +11,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasSouzaDaSilva/testcafe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasSouzaDaSilva/testcafe/issues"
+  },
+  "homepage": "https://github.com/LucasSouzaDaSilva/testcafe#readme",
+  "description": ""
 }

@@ -12,6 +12,7 @@ test("File Upload test", async t =>{
         .setFilesToUpload(fileUpload, '../../upload/logo.png')
         .clickUpload(fileUpload)
         .setFilesToUpload(fileUpload, '../../upload/logo.png')
+        .debug()
         .click(uploadFileButton);
 
 });
